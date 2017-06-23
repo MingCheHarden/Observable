@@ -1,0 +1,24 @@
+{
+    "name": "rxjs-observable",
+    "version": "1.0.0",
+    "description": "learning for rxjs",
+    "main": "ObservableScroll.js",
+    "dependencies": {},
+    "devDependencies": {
+        "express": "^4.15.3",
+        "rxjs": "^5.4.1"
+    },
+    "scripts": {
+        "test": "node build/dev.server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yaoguoli/Observable.git"
+    },
+    "author": "JianJian",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/yaoguoli/Observable/issues"
+    },
+    "homepage": "https://github.com/yaoguoli/Observable#readme"
+}
