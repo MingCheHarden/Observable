@@ -157,8 +157,6 @@ let obYiTouDetail = obYiTouADResponse
         updateADData(YiTouDetailData);
     });
 obYiTouDetail.subscribe();
-
-
 //监听scrollAtbottom，加载更多信息
 let obScrollAtBottom = Rx.Observable.fromEvent(window, "scroll")
     .filter(() => {
@@ -181,7 +179,6 @@ let obAddMoreNewsResponse = obScrollAtBottom.flatMap(() => {
             offset += size;
         });
 });
-
 let obADStream = obADBigList.flatMap((ADBigList) => {
     return obYiTouDetail
         .map((YiTouDetail) => {
